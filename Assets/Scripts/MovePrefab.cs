@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class MovePrefab : MonoBehaviour
@@ -27,6 +25,5 @@ public class MovePrefab : MonoBehaviour
         prefabToMove.transform.position = new Vector2(prefabToMove.transform.position.x + deltaX, prefabToMove.transform.position.y);
         Debug.Log("sensor triggered...");
         sensorToDeactivate.SetActive(false);
-        Debug.Log("sensor triggered..ffffff.");
     }
 }
